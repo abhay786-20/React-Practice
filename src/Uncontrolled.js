@@ -16,10 +16,14 @@ function Uncontrolled() {
     <div>
       <h1>Uncontrolled Component</h1>
       <form action="" onSubmit={submitForm} >
+
         <input ref = {inputRef1} type="text" name="" id="" />
+
         <br /><br />
         <input ref = {inputRef2} type="text" name="" id="" />
+
         <br /><br />
+        
         <input id = "ab" type="text" name=""  />
         <br /><br />
         <button>Submit</button>

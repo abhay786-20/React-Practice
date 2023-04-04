@@ -1,9 +1,13 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {NavLink, Outlet} from 'react-router-dom'
 function About() {
   return (
     <div>
-      <Link to ="/">Home</Link>
+     
+      <NavLink to = "/user/anil" className="navli">User</NavLink>
+      <br />
+      <NavLink to = "/user/abhay" className="navli">User</NavLink>
+      <Outlet/>
     </div>
   )
 }
